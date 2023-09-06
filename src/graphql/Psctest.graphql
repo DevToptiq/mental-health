@@ -1,0 +1,8 @@
+mutation programdataPSC($Data: ProgramDataArgs!) {
+  programform(argsData: $Data) {
+    success
+    error
+    message
+    data
+  }
+}
